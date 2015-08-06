@@ -10,7 +10,7 @@ Sign up on OpenShift.
 
 Copy the `.openshift` directory from [https://github.com/openshift/rails4-example](https://github.com/openshift/rails4-example) into app (already have it here). That directory contains all necessary deployment and build scripts.
 
-Create an app in OpenShift.
+Create an app online at OpenShift. Choose to create a Ruby 2.0 application. You can customize settings there, but if you don't care to customize, you can instead run the command below.
 
     rhc app create myapp ruby-2.0 postgresql-9.2
 
